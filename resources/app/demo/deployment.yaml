@@ -17,7 +17,7 @@
                         spec:
                           containers:
                           - name: test-container
-                            image: sb8citizen/wartoimg:0.54
+                            image: sb8citizen/wartoimg:0.55
                             ports:
                             - containerPort: 8080
                     
