@@ -6,6 +6,7 @@
                       labels:
                         app: test
                     spec:
+                      revisionHistoryLimit: 2
                       replicas: 3
                       selector:
                         matchLabels:
@@ -17,7 +18,7 @@
                         spec:
                           containers:
                           - name: test-container
-                            image: sb8citizen/wartoimg:0.57
+                            image: sb8citizen/wartoimg:0.58
                             ports:
                             - containerPort: 8080
                     
